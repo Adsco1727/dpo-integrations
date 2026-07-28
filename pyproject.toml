@@ -1,0 +1,14 @@
+[project]
+name = "dpo-integrations"
+version = "0.1.0"
+description = "Integrations orchestration layer for the DPO ecosystem"
+authors = [{ name = "DPO Operator" }]
+requires-python = ">=3.9"
+dependencies = ["dpo-ledger-tools @ git+https://github.com/Adsco1727/dpo-ledger-tools.git"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

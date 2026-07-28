@@ -1,0 +1,7 @@
+runtime:
+  python: "3.9"
+  mode: "operator"
+  boundaries:
+    - integration_read
+    - integration_validate
+    - integration_update
